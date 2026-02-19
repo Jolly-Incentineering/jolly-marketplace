@@ -6,17 +6,25 @@ Jolly's internal Claude Code plugin marketplace. Add this once and install any J
 
 ## Quick Install (new teammate setup)
 
-Add the marketplace once per machine:
+**Step 1 — Add the marketplace once per machine:**
 
 ```
 /plugin marketplace add nishant-jolly/jolly-marketplace
 ```
 
-Then install whichever plugins you need. Run this from inside your Jolly - Documents folder:
+**Step 2 — Install the onboarding guide (available everywhere):**
 
 ```
-/plugin install opportunity-analysis@nishant-jolly --scope local
+/plugin install jolly-onboarding@nishant-jolly --scope user
 ```
+
+**Step 3 — Open your Jolly - Documents folder in Claude Code, then run:**
+
+```
+/jolly-onboarding
+```
+
+This walks you through connecting your integrations, installs the deck workflow plugin for this project, and gets your workspace configured. Takes about 2 minutes.
 
 Run `claude plugin marketplace update` to pick up newly added plugins.
 
@@ -26,7 +34,8 @@ Run `claude plugin marketplace update` to pick up newly added plugins.
 
 | Plugin | What it does | Install command |
 |--------|-------------|-----------------|
-| [`opportunity-analysis`](https://github.com/nishant-jolly/opportunity-analysis) | Research, model, and format a client Opportunity Analysis from start to finish | `/plugin install opportunity-analysis@nishant-jolly` |
+| [`jolly-onboarding`](https://github.com/nishant-jolly/opportunity-analysis) | First-time setup — checks integrations, installs plugins, configures workspace | `/plugin install jolly-onboarding@nishant-jolly --scope user` |
+| [`opportunity-analysis`](https://github.com/nishant-jolly/opportunity-analysis) | Research, model, and format a client Opportunity Analysis from start to finish | Installed automatically by `/jolly-onboarding` |
 
 ---
 
