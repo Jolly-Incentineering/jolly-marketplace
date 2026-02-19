@@ -1,21 +1,24 @@
 # jolly-marketplace
 
-Jolly's internal Claude Code plugin marketplace. Add this once and you can install any Jolly plugin.
+Jolly's internal Claude Code plugin marketplace. Add this once and install any Jolly plugin from it — more are added as workflows are built out.
 
 ---
 
 ## Quick Install (new teammate setup)
 
-Run these two commands in Claude Code — that's it:
+Add the marketplace once per machine:
 
 ```
 claude plugin marketplace add https://github.com/nishant-jolly/jolly-marketplace
 ```
+
+Then install whichever plugins you need:
+
 ```
 /plugin install opportunity-analysis@nishant-jolly
 ```
 
-Then use `/deck-auto [Company]` to run the full workflow.
+Run `claude plugin marketplace update` to pick up newly added plugins.
 
 ---
 
@@ -23,7 +26,7 @@ Then use `/deck-auto [Company]` to run the full workflow.
 
 | Plugin | What it does | Install command |
 |--------|-------------|-----------------|
-| `opportunity-analysis` | Research, model, and format a client Opportunity Analysis from start to finish | `/plugin install opportunity-analysis@nishant-jolly` |
+| [`opportunity-analysis`](https://github.com/nishant-jolly/opportunity-analysis) | Research, model, and format a client Opportunity Analysis from start to finish | `/plugin install opportunity-analysis@nishant-jolly` |
 
 ---
 
