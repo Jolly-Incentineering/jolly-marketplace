@@ -12,7 +12,8 @@
       "version": "1.0.0",
       "source": {
         "source": "github",
-        "repo": "nishant-jolly/opportunity-analysis"
+        "repo": "nishant-jolly/opportunity-analysis",
+        "ref": "v1.0.0"
       },
       "author": {
         "name": "Jolly",
