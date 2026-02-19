@@ -9,13 +9,13 @@ Jolly's internal Claude Code plugin marketplace. Add this once and install any J
 Add the marketplace once per machine:
 
 ```
-claude plugin marketplace add https://github.com/nishant-jolly/jolly-marketplace
+/plugin marketplace add nishant-jolly/jolly-marketplace
 ```
 
-Then install whichever plugins you need:
+Then install whichever plugins you need. Run this from inside your Jolly - Documents folder:
 
 ```
-/plugin install opportunity-analysis@nishant-jolly
+/plugin install opportunity-analysis@nishant-jolly --scope local
 ```
 
 Run `claude plugin marketplace update` to pick up newly added plugins.
