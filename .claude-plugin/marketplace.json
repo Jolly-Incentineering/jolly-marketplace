@@ -7,20 +7,6 @@
   },
   "plugins": [
     {
-      "name": "jolly-onboarding",
-      "description": "First-time setup for the Jolly Claude workflow. Checks all required integrations are connected and configures your workspace. Run once on any machine.",
-      "version": "1.0.10",
-      "source": {
-        "source": "github",
-        "repo": "nishant-jolly/opportunity-analysis",
-        "ref": "v1.0.10"
-      },
-      "author": {
-        "name": "Jolly",
-        "email": "nishant@jolly.com"
-      }
-    },
-    {
       "name": "opportunity-analysis",
       "description": "Opportunity Analysis workflow — research, model, and format a client presentation from start to finish.",
       "version": "1.0.10",
