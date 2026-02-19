@@ -10,7 +10,10 @@
       "name": "opportunity-analysis",
       "description": "Opportunity Analysis workflow — research, model, and format a client presentation from start to finish.",
       "version": "1.0.0",
-      "source": "nishant-jolly/opportunity-analysis",
+      "source": {
+        "source": "github",
+        "repo": "nishant-jolly/opportunity-analysis"
+      },
       "author": {
         "name": "Jolly",
         "email": "nishant@jolly.com"
