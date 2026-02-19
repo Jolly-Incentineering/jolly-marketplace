@@ -1,0 +1,20 @@
+{
+  "name": "nishant-jolly",
+  "description": "Jolly internal Claude Code plugin marketplace",
+  "owner": {
+    "name": "Jolly",
+    "email": "nishant@jolly.com"
+  },
+  "plugins": [
+    {
+      "name": "opportunity-analysis",
+      "description": "Opportunity Analysis workflow — research, model, and format a client presentation from start to finish.",
+      "version": "1.0.0",
+      "source": "https://github.com/nishant-jolly/opportunity-analysis",
+      "author": {
+        "name": "Jolly",
+        "email": "nishant@jolly.com"
+      }
+    }
+  ]
+}
