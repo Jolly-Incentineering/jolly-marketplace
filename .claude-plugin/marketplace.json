@@ -9,11 +9,11 @@
     {
       "name": "opportunity-analysis",
       "description": "Opportunity Analysis Plugin — research, model, and format a client Opportunity Analysis from start to finish. Run /deck-help for the full command reference.",
-      "version": "1.0.11",
+      "version": "1.0.13",
       "source": {
         "source": "github",
-        "repo": "nishant-jolly/opportunity-analysis",
-        "ref": "v1.0.11"
+        "repo": "Jolly-Incentineering/opportunity-analysis",
+        "ref": "v1.0.13"
       },
       "author": {
         "name": "Jolly",
