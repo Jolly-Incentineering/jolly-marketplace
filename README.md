@@ -24,7 +24,14 @@ Jolly's internal Claude Code plugin marketplace. Add this once and install any J
 /jolly-onboarding
 ```
 
-This walks you through connecting your integrations, installs the deck workflow plugin for this project, and gets your workspace configured. Takes about 2 minutes.
+This walks you through in plain language:
+- Connecting Slack and Attio integrations (takes 5 minutes)
+- Setting your JOLLY_WORKSPACE environment variable (Windows or Mac specific)
+- Running the one-time workspace setup
+
+When you're done, you're ready to run `/deck-auto [Company Name]` for your first opportunity analysis.
+
+**Total time:** ~10 minutes. One-time setup per machine.
 
 Run `claude plugin marketplace update` to pick up newly added plugins.
 
@@ -32,10 +39,39 @@ Run `claude plugin marketplace update` to pick up newly added plugins.
 
 ## Available plugins
 
-| Plugin | What it does | Install command |
-|--------|-------------|-----------------|
-| [`jolly-onboarding`](https://github.com/nishant-jolly/opportunity-analysis) | First-time setup — checks integrations, installs plugins, configures workspace | `/plugin install jolly-onboarding@nishant-jolly --scope user` |
-| [`opportunity-analysis`](https://github.com/nishant-jolly/opportunity-analysis) | Research, model, and format a client Opportunity Analysis from start to finish | Installed automatically by `/jolly-onboarding` |
+### jolly-onboarding
+**What it does:** First-time setup guide for new teammates. Walks through connecting Slack, configuring environment variables, connecting Attio, and running the one-time workspace setup. No technical knowledge required.
+
+**How to install:**
+```
+/plugin install jolly-onboarding@nishant-jolly --scope user
+```
+
+Then run:
+```
+/jolly-onboarding
+```
+
+---
+
+### opportunity-analysis (v1.1.0)
+**What it does:** Build a complete client Opportunity Analysis from start to finish. Two deck types:
+- **With Commentary** (~20–25 min): After a call. Includes narrative, talking points, and full internal data. 13 QA checks.
+- **Without Commentary** (~10–15 min): Before a call. Numbers only, cold outreach. Streamlined 11 QA checks.
+
+Handles research (CRM, Slack, Gong, public data), financial modeling, PowerPoint formatting, and quality assurance automatically. Just provide the company name and approve at each gate.
+
+**How to install:** Installed automatically when you run `/jolly-onboarding`, or manually with:
+```
+/plugin install nishant-jolly/opportunity-analysis --scope user
+```
+
+**Quick start:**
+```
+/deck-auto [Company Name]
+```
+
+Example: `/deck-auto Firebirds`
 
 ---
 
