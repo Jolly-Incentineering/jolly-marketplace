@@ -8,12 +8,12 @@
   "plugins": [
     {
       "name": "opportunity-analysis",
-      "description": "Opportunity Analysis workflow — research, model, and format a client presentation from start to finish.",
-      "version": "1.0.10",
+      "description": "Opportunity Analysis Plugin — research, model, and format a client Opportunity Analysis from start to finish. Run /deck-help for the full command reference.",
+      "version": "1.0.15",
       "source": {
         "source": "github",
-        "repo": "nishant-jolly/opportunity-analysis",
-        "ref": "v1.0.10"
+        "repo": "Jolly-Incentineering/opportunity-analysis",
+        "ref": "v1.0.15"
       },
       "author": {
         "name": "Jolly",

@@ -1,6 +1,6 @@
-# jolly-marketplace
+# Jolly Marketplace
 
-Jolly's internal Claude Code plugin marketplace. Add this once and install any Jolly plugin from it — more are added as workflows are built out.
+Jolly's internal Claude Code plugin marketplace. Add it once per machine and install any Jolly plugin from it.
 
 ---
 
@@ -75,8 +75,35 @@ Example: `/deck-auto Firebirds`
 
 ---
 
-## Adding a new plugin
+## Commands
+
+Once the plugin is installed, these slash commands are available in Claude Code:
+
+| Command | What it does |
+|---------|-------------|
+| `/deck-help` | Show a full quick-reference guide for all commands |
+| `/deck-setup` | One-time workspace setup — run once per machine |
+| `/deck-auto [Company]` | Run the full Opportunity Analysis workflow automatically |
+| `/deck-start [Company]` | Step 1: create folders, copy templates, open files |
+| `/deck-research` | Step 2: research the company across all sources |
+| `/deck-model` | Step 3: populate the Excel model |
+| `/deck-format` | Step 4: format the PowerPoint and export PDF |
+| `/deck-qa` | Step 5: run quality checks before delivery |
+
+---
+
+## Updating
+
+To pick up new plugin versions:
+
+```
+/plugin update opportunity-analysis
+```
+
+---
+
+## Adding a new plugin (ops)
 
 1. Create the plugin repo under `nishant-jolly/`
 2. Add it to `.claude-plugin/marketplace.json` in this repo
-3. Teammates run `claude plugin marketplace update` to pick up the new plugin
+3. Teammates run `/plugin marketplace update` to pick up the new plugin
