@@ -39,7 +39,7 @@ Run `claude plugin marketplace update` to pick up newly added plugins.
 
 ## Available plugins
 
-### jolly-onboarding (v1.0.15)
+### jolly-onboarding (v1.1.0)
 **What it does:** First-time setup guide for new teammates. Walks through connecting Slack, configuring environment variables, connecting Attio, and running the one-time workspace setup. No technical knowledge required.
 
 **How to install:**
@@ -54,7 +54,7 @@ Then run:
 
 ---
 
-### opportunity-analysis (v1.0.15)
+### opportunity-analysis (v1.1.0)
 **What it does:** Build a complete client Opportunity Analysis from start to finish. Two deck types:
 - **With Commentary** (~20–25 min): After a call. Includes narrative, talking points, and full internal data. 13 QA checks.
 - **Without Commentary** (~10–15 min): Before a call. Numbers only, cold outreach. Streamlined 11 QA checks.
