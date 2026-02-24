@@ -9,11 +9,11 @@
     {
       "name": "jolly-onboarding",
       "description": "First-time setup for the Jolly Claude workflow. Checks all required integrations are connected and configures your workspace. Run once on any machine.",
-      "version": "1.3.0",
+      "version": "2.0.0",
       "source": {
         "source": "github",
         "repo": "Jolly-Incentineering/opportunity-analysis",
-        "ref": "v1.3.0"
+        "ref": "v2.0.0"
       },
       "author": {
         "name": "Jolly",
@@ -22,12 +22,12 @@
     },
     {
       "name": "opportunity-analysis",
-      "description": "Opportunity Analysis Plugin — research, model, and format a client Opportunity Analysis from start to finish. Run /deck-help for the full command reference.",
-      "version": "1.3.0",
+      "description": "Opportunity Analysis Plugin — research, model, and format a client intro deck. Bundled with scripts, template configs, and guardrails. Run /deck-help for the full command reference.",
+      "version": "2.0.0",
       "source": {
         "source": "github",
         "repo": "Jolly-Incentineering/opportunity-analysis",
-        "ref": "v1.3.0"
+        "ref": "v2.0.0"
       },
       "author": {
         "name": "Jolly",
