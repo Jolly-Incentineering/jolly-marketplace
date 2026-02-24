@@ -12,10 +12,10 @@ Jolly's internal Claude Code plugin marketplace. Add it once per machine and ins
 /plugin marketplace add nishant-jolly/jolly-marketplace
 ```
 
-**Step 2 — Install the onboarding guide (available everywhere):**
+**Step 2 — Install the opportunity-analysis plugin (available everywhere):**
 
 ```
-/plugin install jolly-onboarding@nishant-jolly --scope user
+/plugin install opportunity-analysis@nishant-jolly --scope user
 ```
 
 **Step 3 — Open your Jolly - Documents folder in Claude Code, then run:**
@@ -39,29 +39,16 @@ Run `claude plugin marketplace update` to pick up newly added plugins.
 
 ## Available plugins
 
-### jolly-onboarding (v1.3.0)
-**What it does:** First-time setup guide for new teammates. Walks through connecting Slack, configuring environment variables, connecting Attio, and running the one-time workspace setup. No technical knowledge required.
-
-**How to install:**
-```
-/plugin install jolly-onboarding@nishant-jolly --scope user
-```
-
-Then run:
-```
-/jolly-onboarding
-```
-
----
-
-### opportunity-analysis (v1.3.0)
+### opportunity-analysis (v2.0.1)
 **What it does:** Build a complete client Opportunity Analysis from start to finish using the Quick Deck template. Handles research (CRM, Slack, Gong, public data), financial modeling, PowerPoint formatting, and quality assurance automatically. Just provide the company name and approve at each gate.
+
+**Includes:** The `/jolly-onboarding` skill for first-time setup is bundled inside this plugin.
 
 **Context-based workflow:** Pre-call uses Slack + Public data (~8–12 min). Post-call includes full Attio/Gong research with transcripts (~14–20 min).
 
-**How to install:** Installed automatically when you run `/jolly-onboarding`, or manually with:
+**How to install:**
 ```
-/plugin install nishant-jolly/opportunity-analysis --scope user
+/plugin install opportunity-analysis@nishant-jolly --scope user
 ```
 
 **Quick start:**
@@ -95,7 +82,7 @@ Once the plugin is installed, these slash commands are available in Claude Code:
 To pick up new plugin versions:
 
 ```
-/plugin update opportunity-analysis
+/plugin update opportunity-analysis@nishant-jolly
 ```
 
 ---
