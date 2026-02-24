@@ -6,6 +6,24 @@ Jolly's internal Claude Code plugin marketplace. Add it once per machine and ins
 
 ## Quick Install (new teammate setup)
 
+**Step 0 — Make sure Git is installed and configured for HTTPS:**
+
+The plugin system uses Git to download plugins. If you don't have Git, Step 1 will fail.
+
+*Check:* Open a terminal and run `git --version`. If you see a version number, skip to the HTTPS config below.
+
+*Windows — install Git:*
+Download from https://git-scm.com/download/win and run the installer (use all default settings).
+
+*Mac — install Git:*
+Run `xcode-select --install` in Terminal. Click Install when the dialog appears (~2–5 min).
+
+*Then configure Git to use HTTPS (both platforms):*
+```
+git config --global url."https://github.com/".insteadOf git@github.com:
+```
+This prevents "Permission denied (publickey)" errors. On Windows, the credential manager handles GitHub login automatically. On Mac, you'll be prompted for your GitHub username and a personal access token (create one at https://github.com/settings/tokens with "repo" scope).
+
 **Step 1 — Add the marketplace once per machine:**
 
 ```
