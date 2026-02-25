@@ -27,13 +27,13 @@ This prevents "Permission denied (publickey)" errors. On Windows, the credential
 **Step 1 — Add the marketplace once per machine:**
 
 ```
-/plugin marketplace add nishant-jolly/jolly-marketplace
+/plugin marketplace add Jolly-Incentineering/jolly-marketplace
 ```
 
 **Step 2 — Install the opportunity-analysis plugin (available everywhere):**
 
 ```
-/plugin install opportunity-analysis@nishant-jolly --scope user
+/plugin install opportunity-analysis@Jolly-Incentineering --scope user
 ```
 
 **Step 3 — Open your Jolly - Documents folder in Claude Code, then run:**
@@ -57,7 +57,7 @@ Run `claude plugin marketplace update` to pick up newly added plugins.
 
 ## Available plugins
 
-### opportunity-analysis (v2.0.2)
+### opportunity-analysis (v2.1.0)
 **What it does:** Build a complete client Opportunity Analysis from start to finish using the Intro Deck template. Handles research (CRM, Slack, Gong, public data), financial modeling, PowerPoint formatting, and quality assurance automatically. Just provide the company name and approve at each gate. Attio reads now use the direct REST API for faster, more reliable CRM data retrieval.
 
 **Includes:** The `/jolly-onboarding` skill for first-time setup is bundled inside this plugin.
@@ -66,7 +66,7 @@ Run `claude plugin marketplace update` to pick up newly added plugins.
 
 **How to install:**
 ```
-/plugin install opportunity-analysis@nishant-jolly --scope user
+/plugin install opportunity-analysis@Jolly-Incentineering --scope user
 ```
 
 **Quick start:**
@@ -100,13 +100,13 @@ Once the plugin is installed, these slash commands are available in Claude Code:
 To pick up new plugin versions:
 
 ```
-/plugin update opportunity-analysis@nishant-jolly
+/plugin update opportunity-analysis@Jolly-Incentineering
 ```
 
 ---
 
 ## Adding a new plugin (ops)
 
-1. Create the plugin repo under `nishant-jolly/`
+1. Create the plugin repo under `Jolly-Incentineering/`
 2. Add it to `.claude-plugin/marketplace.json` in this repo
 3. Teammates run `/plugin marketplace update` to pick up the new plugin

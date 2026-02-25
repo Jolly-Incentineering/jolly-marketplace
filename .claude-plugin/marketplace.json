@@ -1,5 +1,5 @@
 {
-  "name": "nishant-jolly",
+  "name": "Jolly-Incentineering",
   "description": "Jolly internal Claude Code plugin marketplace",
   "owner": {
     "name": "Jolly",
@@ -9,11 +9,11 @@
     {
       "name": "opportunity-analysis",
       "description": "Opportunity Analysis Plugin — research, model, and format a client intro deck. Includes onboarding, scripts, template configs, and guardrails. Run /deck-help for the full command reference.",
-      "version": "2.0.2",
+      "version": "2.1.0",
       "source": {
         "source": "github",
         "repo": "Jolly-Incentineering/opportunity-analysis",
-        "ref": "v2.0.2"
+        "ref": "v2.1.0"
       },
       "author": {
         "name": "Jolly",
