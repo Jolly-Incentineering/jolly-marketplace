@@ -57,8 +57,8 @@ Run `claude plugin marketplace update` to pick up newly added plugins.
 
 ## Available plugins
 
-### opportunity-analysis (v2.1.0)
-**What it does:** Build a complete client Opportunity Analysis from start to finish using the Intro Deck template. Handles research (CRM, Slack, Gong, public data), financial modeling, PowerPoint formatting, and quality assurance automatically. Just provide the company name and approve at each gate. Attio reads now use the direct REST API for faster, more reliable CRM data retrieval.
+### opportunity-analysis (v2.1.1)
+**What it does:** Build a complete client Opportunity Analysis from start to finish using the Intro Deck template. Handles research (CRM, Slack, Gong, public data), financial modeling, PowerPoint formatting, and quality assurance automatically. Just provide the company name and approve at each gate. Macabacus-linked values are now automatically protected from programmatic edits, and dollar formatting is standardized to 1 decimal place across the board.
 
 **Includes:** The `/jolly-onboarding` skill for first-time setup is bundled inside this plugin.
 
