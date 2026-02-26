@@ -57,8 +57,10 @@ Run `claude plugin marketplace update` to pick up newly added plugins.
 
 ## Available plugins
 
-### opportunity-analysis (v2.2.0)
-**What it does:** Build a complete client Opportunity Analysis from start to finish using the Intro Deck template. Handles research (CRM, Slack, Gong, public data), financial modeling, PowerPoint formatting, and quality assurance automatically. Just provide the company name and approve at each gate. New in v2.2.0: Inbox Feed Generator auto-creates branded push notification copy for Figma, scripts optimized for speed, and Brandfetch/Goody tools now support direct CLI automation.
+### opportunity-analysis (v3.1.0)
+**What it does:** Build a complete client Opportunity Analysis from start to finish using the Intro Deck template. Handles research (CRM, Slack, Gong, public data), financial modeling, PowerPoint formatting, and quality assurance automatically. Just provide the company name and approve at each gate.
+
+**v3.1.0 highlights:** Token-optimized preambles (`ws_env.sh`), trimmed hard rules, critical bug fixes (deck-model, deck-qa), dead code removal (540+ lines), Retail vertical support, read-only MCP guardrail on all skills.
 
 **Includes:** The `/jolly-onboarding` skill for first-time setup is bundled inside this plugin.
 
