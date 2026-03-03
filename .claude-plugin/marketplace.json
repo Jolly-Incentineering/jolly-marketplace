@@ -3,21 +3,21 @@
   "description": "Jolly internal Claude Code plugin marketplace",
   "owner": {
     "name": "Jolly",
-    "email": "nishant@jolly.com"
+    "email": "team@jolly.com"
   },
   "plugins": [
     {
       "name": "opportunity-analysis",
       "description": "Opportunity Analysis Plugin — research, model, and format a client intro deck. Includes onboarding, scripts, template configs, and guardrails. Run /deck-help for the full command reference.",
-      "version": "3.5.1",
+      "version": "3.6.0",
       "source": {
         "source": "github",
         "repo": "Jolly-Incentineering/opportunity-analysis",
-        "ref": "v3.5.1"
+        "ref": "v3.6.0"
       },
       "author": {
         "name": "Jolly",
-        "email": "nishant@jolly.com"
+        "email": "team@jolly.com"
       }
     }
   ]

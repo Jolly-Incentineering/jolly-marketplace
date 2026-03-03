@@ -57,10 +57,10 @@ Run `claude plugin marketplace update` to pick up newly added plugins.
 
 ## Available plugins
 
-### opportunity-analysis (v3.5.1)
+### opportunity-analysis (v3.6.0)
 **What it does:** Build a complete client Opportunity Analysis from start to finish using the Intro Deck template. Handles research (CRM, Attio call recordings, Slack, public data), financial modeling, PowerPoint formatting, and quality assurance automatically. Just provide the company name and approve at each gate.
 
-**v3.5.1 highlights:** Goody scraper split into auto + manual scripts, Attio call recordings (replacing Gong), simplified branch detection, 60s MCP timeout, XML-safe Excel writes with .bak backups, zero-value detection in QA.
+**v3.6.0 highlights:** 48% fewer user stops (23 down to 12), systems of record detection with Brandfetch logos, consolidated `format-all` deck action, two-bullet campaign insights, campaign mechanic maps for faster vertical builds, fill-banners formatting bug fix.
 
 **Includes:** The `/jolly-onboarding` skill for first-time setup is bundled inside this plugin.
 
