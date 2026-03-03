@@ -57,14 +57,14 @@ Run `claude plugin marketplace update` to pick up newly added plugins.
 
 ## Available plugins
 
-### opportunity-analysis (v3.1.1)
-**What it does:** Build a complete client Opportunity Analysis from start to finish using the Intro Deck template. Handles research (CRM, Slack, Gong, public data), financial modeling, PowerPoint formatting, and quality assurance automatically. Just provide the company name and approve at each gate.
+### opportunity-analysis (v3.5.0)
+**What it does:** Build a complete client Opportunity Analysis from start to finish using the Intro Deck template. Handles research (CRM, Attio call recordings, Slack, public data), financial modeling, PowerPoint formatting, and quality assurance automatically. Just provide the company name and approve at each gate.
 
-**v3.1.1 highlights:** Structured AskUserQuestion prompts at all 33 gate points (replaces freetext "done"/"ready"/"approve"), multi-question batches for checklists, full placeholder audit with 6 categories, column H source notes in model.
+**v3.5.0 highlights:** Gong replaced with Attio call recordings, simplified Attio-only branch detection, 60s MCP timeout, XML-safe Excel writes with .bak backups, zero-value detection in QA, workspace CLAUDE.md cleanup.
 
 **Includes:** The `/jolly-onboarding` skill for first-time setup is bundled inside this plugin.
 
-**Context-based workflow:** Pre-call uses Slack + Public data (~8–12 min). Post-call includes full Attio/Gong research with transcripts (~14–20 min).
+**Context-based workflow:** Pre-call uses Slack + Public data (~8–12 min). Post-call includes full Attio research with call recordings (~14–20 min).
 
 **How to install:**
 ```
